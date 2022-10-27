@@ -1,0 +1,225 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+/* heading */
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.Container-fluid{
+  padding: 7% 15% ;
+
+}
+
+/* sections */
+.colored-section{
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  /* margin\-bottom: 20px; */
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+
+}
+
+
+/* Download-button */
+
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* title section */
+#title{
+  text-align: left;
+}
+
+#title .Container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Image rotation of dog  */
+
+
+.dog{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+.img-pos{
+  position: relative;
+
+}
+
+
+
+
+/*  */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  padding: 5%;
+}
+
+.fea-a{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+
+}
+
+.fea-a:hover{
+  color: #ff4c68;
+}
+
+
+.fea-p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+
+/* Testimonials section */
+
+
+#testimonials{
+  background-color: #ef8172;
+
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-dog{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section - bootsrtap card */
+
+
+#pricing{
+  padding: 100px;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Section CTA */
+
+
+
+.cta-head{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  /* padding: 0 300px; */
+}
+
+
+
+/* Footer Section */
+
+#footer{
+  background-color: white;
+}
+
+.foot-icon{
+  margin: 20px 10px;
+}
+
+/* Media query of css for responsive screen on tab and mobile  */
+
+@media (max-width:1020px) {
+  .dog{
+     position: static;
+     transform: rotate(0deg);
+  }
+
+  .img-pos{
+    position: static;
+
+  }
+
+  .Continer-fluid{
+    text-align: center
+  }
+}
